@@ -1,0 +1,9 @@
+services:
+  llm-ab-test:
+    build: .
+    container_name: llm_ab_testing_app
+    env_file:
+      - .env
+    volumes:
+      - ./:/app
+    command: python run_ab_test.py --limit 100

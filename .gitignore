@@ -1,0 +1,23 @@
+# Gizli API anahtarı ve ortam değişkenleri (KESİNLİKLE GitHub'a yüklenmemeli)
+.env
+.env.local
+.env.*.local
+
+# Python önbellek ve sanal ortam dosyaları
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Excel geçici kilit dosyaları
+~$*.xlsx
+prova_*.xlsx
+*_yeni.xlsx
+
+# IDE ve işletim sistemi dosyaları
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
